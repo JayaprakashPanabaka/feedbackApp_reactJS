@@ -9,12 +9,13 @@ class Feedback extends Component {
   state = {isClicked: false}
 
   onEmojiClicked = () => {
-    const {isClicked} = this.state
+    // const {isClicked} = this.state
     this.setState({isClicked: true})
   }
 
   render() {
-    const {resources, isClicked} = this.props
+    const {resources} = this.props
+    const {isClicked} = this.state
     // console.log(resources)
 
     return (

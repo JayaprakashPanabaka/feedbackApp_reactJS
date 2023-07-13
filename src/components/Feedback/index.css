@@ -15,7 +15,8 @@
   text-align: center;
 }
 
-.emojis-container {
+.emojis-container,
+.thanks-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,7 +27,8 @@
   border-radius: 12px;
 }
 
-.heading {
+.heading,
+.thanks-heading {
   color: #0f172a;
 }
 
@@ -56,6 +58,7 @@
   height: 80px;
 }
 
-.emoji-name {
+.emoji-name,
+.thanks-text {
   color: #1e293b;
 }
